@@ -1,0 +1,15 @@
+# Versions pinned in the notebook (Kaggle, PyTorch preinstalled, 2x Tesla T4)
+# Do NOT install bitsandbytes: it breaks the diffusers import on this stack.
+diffusers==0.31.0
+transformers==4.46.2
+peft==0.13.2
+accelerate==1.1.1
+safetensors==0.4.5
+einops==0.8.0
+sentencepiece==0.2.0
+huggingface_hub>=0.24.0
+torch
+numpy
+pillow
+matplotlib
+requests

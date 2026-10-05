@@ -1,0 +1,17 @@
+# Model weights and caches (downloaded at runtime, never committed)
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+hf_cache/
+sd15/
+sdxl/
+sdxl_loras/
+loras/
+dino/
+clip-l14/
+eval_cache/
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.env
